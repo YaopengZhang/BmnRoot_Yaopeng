@@ -5,9 +5,6 @@ macro/run/*.root
 macro/run/Sim1/
 macro/run/Sim2/
 macro/run/Sim3/
-
-macro/run/Sim0/
-
 macro/run/Sim0/*.root
 !macro/run/Sim0/PhysicsHist*.root
 macro/run/Sim0/*.dat
