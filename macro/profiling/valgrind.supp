@@ -1,0 +1,316 @@
+# To use standart root-suppression file, you should use additional argument
+# --suppressions=$SIMPATH/../tools/root/etc/valgrind-root.supp
+# valgrind run: 
+{
+   obj1
+   Memcheck:Cond
+   fun:_ZN7TObjectC1Ev
+}
+{
+   obj2
+   Memcheck:Cond
+   fun:_ZN7TObjectC1ERKS_
+}
+{
+   gas1_root5_mpd
+   Memcheck:Cond
+   fun:_ZN6TpcGasC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEd
+}
+{
+   obj3
+   Memcheck:Cond
+   fun:_ZN7TObjectD1Ev
+}
+{
+   TFile
+   Memcheck:Cond
+   fun:_ZN5TFile5FlushEv
+}
+{
+   TObjArray
+   Memcheck:Cond
+   fun:_ZN9TObjArray4InitEii
+}
+
+{
+   TClass::SetRuntimeProperties()
+   Memcheck:Cond
+   fun:_ZN6TClass20SetRuntimePropertiesEv
+}
+
+{
+   TList::MakeIterator
+   Memcheck:Cond
+   fun:_ZNK5TList12MakeIteratorEb
+}
+{
+   TList::Clear
+   Memcheck:Cond
+   fun:_ZN5TList5ClearEPKc
+}
+
+{
+   TCollection::~TCollection()
+   Memcheck:Cond
+   fun:_ZN11TCollectionD1Ev
+}
+{
+   TList::Delete
+   Memcheck:Cond
+   fun:_ZN5TList6DeleteEPKc
+}
+{
+   TNamed::~TNamed() 
+   Memcheck:Cond
+   fun:_ZN6TNamedD1Ev
+}
+{
+   FairFileSource.cxx:164
+   Memcheck:Cond
+   fun:_ZN14FairFileSourceC1E7TStringPKcj
+}
+{
+   TList::AddLast
+   Memcheck:Cond
+   fun:_ZN5TList7AddLastEP7TObject
+}
+{
+   TList::NewLink
+   Memcheck:Cond
+   fun:_ZN5TList7NewLinkEP7TObjectRKSt10shared_ptrI8TObjLinkE
+}
+{
+   TList::AddFirst
+   Memcheck:Cond
+   fun:_ZN5TList8AddFirstEP7TObject
+}
+{
+   TUrl::GetUrl
+   Memcheck:Cond
+   fun:_ZNK4TUrl6GetUrlEb
+}
+{
+   strlen
+   Memcheck:Addr1
+   fun:strlen
+}
+{
+   memmove2
+   Memcheck:Addr2
+   fun:memmove
+}
+{
+   memmove1
+   Memcheck:Addr1
+   fun:memmove
+}
+{
+   TObject::Streamer
+   Memcheck:Cond
+   fun:_ZN7TObject8StreamerER7TBuffer
+}
+{
+   TClingClassInfo::Name
+   Memcheck:Addr1
+   fun:_ZNK15TClingClassInfo4NameEv
+}
+{
+   std::__cxx11::basic_string
+   Memcheck:Addr1
+   fun:_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm
+}
+{
+   TDirectoryFile::WriteTObject
+   Memcheck:Cond
+   fun:_ZN14TDirectoryFile12WriteTObjectEPK7TObjectPKcS4_i
+}
+{
+   TKey::Streamer(TBuffer&)
+   Memcheck:Cond
+   fun:_ZN4TKey8StreamerER7TBuffer
+}
+{
+   TList::Streamer(TBuffer&)
+   Memcheck:Cond
+   fun:_ZN5TList8StreamerER7TBuffer
+
+}
+{
+   TObjArray::GetAbsLast() 
+   Memcheck:Cond
+   fun:_ZNK9TObjArray10GetAbsLastEv
+}
+{
+  TObjArray::AddAtAndExpand
+   Memcheck:Cond
+   fun:_ZN9TObjArray14AddAtAndExpandEP7TObjecti
+}
+{
+   TObjArray::Streamer(TBuffer&)
+   Memcheck:Cond
+   fun:_ZN9TObjArray8StreamerER7TBuffer
+}
+{
+   TObjArray::~TObjArray()
+   Memcheck:Cond
+   fun:_ZN9TObjArrayD1Ev
+}
+{
+   TList::FindLink
+   Memcheck:Cond
+   fun:_ZNK5TList8FindLinkEPK7TObjectRi
+}
+{
+   write (write.c:26)
+   Memcheck:Param
+   write(buf)
+   fun:write
+}
+{
+   TList::RemoveLast()
+   Memcheck:Cond
+   fun:_ZN5TList10RemoveLastEv
+}
+{
+   TClingClassInfo::FullName
+   Memcheck:Addr1
+   fun:_ZNK15TClingClassInfo8FullNameERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN4ROOT10TMetaUtils15TNormalizedCtxtE
+}
+{
+    TClassEdit::TSplitType::ShortType
+   Memcheck:Addr1
+   fun:_ZN10TClassEdit10TSplitType9ShortTypeERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi
+}
+{
+   ROOT::TMetaUtils::GetNormalizedName
+   Memcheck:Addr1
+   fun:_ZN4ROOT10TMetaUtils17GetNormalizedNameERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN5clang8QualTypeERKN5cling11InterpreterERKNS0_15TNormalizedCtxtE
+}
+{
+   TString::operator=(char const*)
+   Memcheck:Addr1
+   fun:_ZN7TStringaSEPKc
+}
+{
+   memmove
+   Memcheck:Addr8
+   fun:memmove
+}
+{
+   TString::Replace
+   Memcheck:Addr1
+   fun:_ZN7TString7ReplaceEiiPKci
+}
+{
+   TObjArray::Delete(char const*)
+   Memcheck:Addr1
+   fun:_ZN9TObjArray6DeleteEPKc
+}
+{
+   TCollection::GarbageCollect(TObject*)
+   Memcheck:Addr8
+   fun:_ZN11TCollection14GarbageCollectEP7TObject
+}
+{
+   TObject::~TObject()_1
+   Memcheck:Addr8
+   fun:_ZN7TObjectD1Ev
+}
+{
+   TObject::~TObject()_2
+   Memcheck:Addr4
+   fun:_ZN7TObjectD1Ev
+}
+{
+   operator delete(void*)
+   Memcheck:Free
+   fun:_ZdlPv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znam
+}
+
+##################################################################################################
+# memory leaks
+{
+   ClingLookupHelper
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znam
+   fun:_Z37TClingLookupHelper__ExistingTypeCheckRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS4_
+}
+{
+   ROOT::new_TString(void*)
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znam
+   fun:_Z37TClingLookupHelper__ExistingTypeCheckRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS4_
+}
+{
+   llvm::User::operator new
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN4llvm4UsernwEmj
+}
+{
+   TStorage::ObjectAlloc(unsigned long)_1
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN8TStorage11ObjectAllocEm
+   fun:_ZN4ROOTL18new_TGeoCombiTransEPv
+   fun:_ZNK6TClass3NewENS_8ENewTypeEb
+   fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+   fun:_ZN11TBufferFile13ReadFastArrayEPPvPK6TClassibP15TMemberStreamerS4_
+   fun:_ZN13TStreamerInfo10ReadBufferIPPcEEiR7TBufferRKT_PKPNS_9TCompInfoEiiiii
+   fun:_ZN20TStreamerInfoActions17GenericReadActionER7TBufferPvPKNS_14TConfigurationE
+   fun:_ZN11TBufferFile15ReadClassBufferEPK6TClassPvS2_
+   fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+   fun:_ZN9TObjArray8StreamerER7TBuffer
+   fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+}
+{
+   llvm::User
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:_Znwm
+   fun:_ZN4llvm4UsernwEm
+}
+{
+   TStorage::ObjectAlloc(unsigned long)_2
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN8TStorage11ObjectAllocEm
+   #fun:_ZN4ROOTL12new_TGeoTubeEPv
+   #fun:_ZNK6TClass3NewENS_8ENewTypeEb
+   #fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+   #fun:_ZN11TBufferFile13ReadFastArrayEPPvPK6TClassibP15TMemberStreamerS4_
+   #fun:_ZN13TStreamerInfo10ReadBufferIPPcEEiR7TBufferRKT_PKPNS_9TCompInfoEiiiii
+   #fun:_ZN20TStreamerInfoActions17GenericReadActionER7TBufferPvPKNS_14TConfigurationE
+   #fun:_ZN11TBufferFile15ReadClassBufferEPK6TClassPvS2_
+   #fun:_ZN13TStreamerBase10ReadBufferER7TBufferPc
+   #fun:_ZN13TStreamerInfo10ReadBufferIPPcEEiR7TBufferRKT_PKPNS_9TCompInfoEiiiii
+   #fun:_ZN20TStreamerInfoActions17GenericReadActionER7TBufferPvPKNS_14TConfigurationE
+}
+{
+    TStorage::ObjectAlloc(unsigned long)_3
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   fun:_ZN8TStorage11ObjectAllocEm
+   fun:_ZN4ROOTL18new_TGeoNodeMatrixEPv
+   fun:_ZNK6TClass3NewENS_8ENewTypeEb
+   fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+   fun:_ZN9TObjArray8StreamerER7TBuffer
+   fun:_ZN11TBufferFile13ReadFastArrayEPPvPK6TClassibP15TMemberStreamerS4_
+   fun:_ZN13TStreamerInfo10ReadBufferIPPcEEiR7TBufferRKT_PKPNS_9TCompInfoEiiiii
+   fun:_ZN20TStreamerInfoActions17GenericReadActionER7TBufferPvPKNS_14TConfigurationE
+   fun:_ZN11TBufferFile15ReadClassBufferEPK6TClassPvS2_
+   fun:_ZN11TGeoManager8StreamerER7TBuffer
+   fun:_ZN11TBufferFile13ReadObjectAnyEPK6TClass
+}

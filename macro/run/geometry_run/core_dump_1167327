@@ -1,0 +1,32 @@
+#0  0x00007f92e0065c3a in __GI___wait4 (pid=1167389, stat_loc=stat_loc
+entry=0x7ffc2f779418, options=options
+entry=0, usage=usage
+entry=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:27
+#1  0x00007f92e0065bfb in __GI___waitpid (pid=<optimized out>, stat_loc=stat_loc
+entry=0x7ffc2f779418, options=options
+entry=0) at waitpid.c:38
+#2  0x00007f92dffd4f67 in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:172
+#3  0x00007f92e06731aa in TUnixSystem::Exec (shellcmd=<optimized out>, this=0x564d8a690800) at /home/tools/FairSoft/fairsoft/build/Source/root/core/unix/src/TUnixSystem.cxx:2108
+#4  TUnixSystem::StackTrace (this=0x564d8a690800) at /home/tools/FairSoft/fairsoft/build/Source/root/core/unix/src/TUnixSystem.cxx:2399
+#5  0x00007f92d8b68157 in FairLogger::LogFatalMessage () at /home/tools/FairSoft/fairroot/fairtools/FairLogger.cxx:195
+#6  0x00007f92c5549e68 in std::function<void ()>::operator()() const (this=0x7f92c55719a0 <fair::Logger::fFatalCallback>) at /usr/include/c++/9/bits/std_function.h:683
+#7  fair::Logger::~Logger (this=0x7ffc2f77bb80, __in_chrg=<optimized out>) at /home/tools/FairSoft/fairsoft/build/Source/fairlogger/logger/Logger.cxx:274
+#8  0x00007f92c5f695d6 in FairRootManager::RegisterImpl<TCollection> (this=0x564d929bfb40, name=0x7f92c4b38089 "MCTrack", folderName=<optimized out>, obj=0x564d95860da0, toFile=<optimized out>) at /home/tools/FairSoft/fairsoft/install/include/fairlogger/Logger.h:310
+#9  0x00007f92c4add414 in CbmStack::Register (this=0x564d92abc960) at /data/yaopeng/bmnroot_Yaopeng/base/data/CbmStack.cxx:317
+#10 0x00007f92c5f2b4c5 in FairMCApplication::InitGeometry (this=0x564d927a1e20) at /home/tools/FairSoft/fairroot/base/sim/FairMCApplication.cxx:1031
+#11 0x00007f92bda322f0 in TG4SDConstruction::Construct (this=<optimized out>) at /home/tools/FairSoft/fairsoft/build/Source/geant4_vmc/source/digits+hits/src/TG4SDConstruction.cxx:289
+#12 0x00007f92bda59f0d in TG4GeometryManager::ConstructSDandField (this=0x564d949983a0) at /home/tools/FairSoft/fairsoft/build/Source/geant4_vmc/source/digits+hits/include/TG4SDManager.h:90
+#13 0x00007f92bdb151f2 in TG4RootDetectorConstruction::ConstructSDandField (this=0x564d953f1520) at /usr/include/c++/9/bits/locale_facets.h:877
+#14 0x00007f92bf4bcc75 in G4RunManager::InitializeGeometry (this=0x564d94e3b7a0) at /home/tools/FairSoft/fairsoft/build/Source/geant4/source/run/src/G4RunManager.cc:712
+#15 0x00007f92bf4bc712 in G4RunManager::Initialize (this=0x564d94e3b7a0) at /home/tools/FairSoft/fairsoft/build/Source/geant4/source/run/src/G4RunManager.cc:680
+#16 0x00007f92bdabb1ba in TG4RunManager::Initialize (this=0x564d94c46170) at /home/tools/FairSoft/fairsoft/build/Source/geant4_vmc/source/run/src/TG4RunManager.cxx:415
+#17 0x00007f92bdabe2a4 in TGeant4::Init (this=0x564d94988da0) at /home/tools/FairSoft/fairsoft/build/Source/geant4_vmc/source/run/src/TGeant4.cxx:1123
+#18 0x00007f92c5f28db5 in FairMCApplication::InitMC (this=0x564d927a1e20) at /home/tools/FairSoft/fairroot/base/sim/FairMCApplication.cxx:433
+#19 0x00007f92c5f75c39 in FairRunSim::SetMCConfig (this=0x564d911c1410) at /home/tools/FairSoft/fairroot/base/steer/FairRunSim.cxx:297
+#20 0x00007f92c5f775e0 in FairRunSim::Init (this=0x564d911c1410) at /home/tools/FairSoft/fairroot/base/steer/FairRunSim.cxx:243
+#21 0x00007f92d91e786d in ?? ()
+#22 0x00007f92db1e3060 in ?? () from /home/tools/FairSoft/fairsoft/install/lib/libCling.so
+#23 0x0000564d8a700dd0 in ?? ()
+#24 0x0000564d911c1410 in ?? ()
+#25 0x0000564d923ceb40 in ?? ()
+#26 0x0000000000000000 in ?? ()
