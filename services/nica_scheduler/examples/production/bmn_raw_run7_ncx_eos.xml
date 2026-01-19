@@ -1,0 +1,9 @@
+<job name="bmn_raw" batch="sge">
+ <macro path="$VMCWORKDIR/macro/raw/BmnDataToRoot.C">
+  <file input="/eos/nica/bmn/exp/raw/run7/2001-2212_Test/*" output="/weekly/gertsen/bmn/exp/digi/run7/20.02.0/2001-2212_Test/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/3590-4707_BMN_Argon/*" output="/weekly/gertsen/bmn/exp/digi/run7/20.02.0/3590-4707_BMN_Argon/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/4720-5186_BMN_Krypton/*" output="/weekly/gertsen/bmn/exp/digi/run7/20.02.0/4720-5186_BMN_Krypton/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/2213-3588_SRC_Carbon/*" output="/weekly/gertsen/bmn/exp/digi/run7/20.02.0/2213-3588_SRC_Carbon/bmn_run${last_number}_digi.root"/>
+ </macro>
+ <run mode="global" config="/weekly/gertsen/bmnroot/build/config.sh" hosts="(ncx20[5-8]|ncx21[1-8]|ncx22[5-8]|ncx23[1-8]|ncx11[1-7]|ncx12[1-7]|ncx13[1-9]|ncx14[1-9]|ncx15[19]|ncx16[1-9])"/>
+</job>

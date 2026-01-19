@@ -1,0 +1,14 @@
+<jobs batch="sge">
+ <job name="mpd_sim">
+  <macro path="$VMCWORKDIR/macro/mpd/runMC.C">
+   <file input="/nica/data4mpd1/LAQGSM/*" output="$VMCWORKDIR/macro/mpd/evetest_${file_name}.root" start_event="0" event_count="1"/>
+  </macro>
+  <run mode="global" count="0" config="~/mpdroot/build/config.sh"/>
+ </job>
+ <job name="mpd_reco" dependency="mpd_sim">
+  <macro path="$VMCWORKDIR/macro/mpd/reco.C">
+   <file job_input="mpd_sim" output="$VMCWORKDIR/macro/mpd/mpddst_${file_name:~8}.root" start_event="0" event_count="1"/>
+  </macro>
+  <run mode="global" count="0" config="~/mpdroot/build/config.sh"/>
+ </job>
+</jobs>

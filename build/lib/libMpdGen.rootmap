@@ -1,0 +1,29 @@
+{ decls }
+namespace std {  }
+
+[ MpdGen.so ]
+# List of selected classes
+class Mpd3fdGenerator
+class MpdDCMSMMGenerator
+class MpdGetNumEvents
+class MpdHistoGenerator
+class MpdHypYPtGenerator
+class MpdLAQGSMGenerator
+class MpdLibZ
+class MpdMCEventHeader
+class MpdPHSDGenerator
+class MpdRainGenerator
+class MpdUrqmdGenerator
+class MpdVHLLEGenerator
+class map<TString,FairIon*>
+header Mpd3fdGenerator.h
+header MpdDCMSMMGenerator.h
+header MpdGetNumEvents.h
+header MpdHistoGenerator.h
+header MpdHypYPtGenerator.h
+header MpdLAQGSMGenerator.h
+header MpdMCEventHeader.h
+header MpdPHSDGenerator.h
+header MpdRainGenerator.h
+header MpdUrqmdGenerator.h
+header MpdVHLLEGenerator.h

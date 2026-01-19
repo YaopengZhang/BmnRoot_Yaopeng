@@ -1,0 +1,39 @@
+{ decls }
+namespace BmnSiliconConfiguration {  }
+
+[ Silicon.so ]
+# List of selected classes
+class BmnSilicon
+class BmnSiliconDigit
+class BmnSiliconDigitizer
+class BmnSiliconHit
+class BmnSiliconHitMaker
+class BmnSiliconHitProducer
+class BmnSiliconHitProducerSRC
+class BmnSiliconLayer
+class BmnSiliconModule
+class BmnSiliconPoint
+class BmnSiliconStation
+class BmnSiliconStationSet
+class BmnSiliconTrack
+class BmnSiliconTrackFinder
+class BmnSiliconTransform
+header BmnSilicon.h
+header BmnSiliconDigit.h
+header BmnSiliconDigitizer.h
+header BmnSiliconHit.h
+header BmnSiliconHitMaker.h
+header BmnSiliconHitProducer.h
+header BmnSiliconHitProducerSRC.h
+header BmnSiliconLayer.h
+header BmnSiliconModule.h
+header BmnSiliconPoint.h
+header BmnSiliconStation.h
+header BmnSiliconStationSet.h
+header BmnSiliconTrack.h
+header BmnSiliconTrackFinder.h
+header BmnSiliconTransform.h
+# List of selected namespaces
+namespace BmnSiliconConfiguration
+# List of selected enums and outer classes
+enum BmnSiliconConfiguration::SILICON_CONFIG

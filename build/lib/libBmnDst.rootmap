@@ -1,0 +1,4 @@
+[ BmnDst.so ]
+# List of selected classes
+class BmnFillDstTask
+header BmnFillDstTask.h

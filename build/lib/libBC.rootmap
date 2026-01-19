@@ -1,0 +1,16 @@
+[ BC.so ]
+# List of selected classes
+class BmnBC
+class BmnBCContFact
+class BmnBCGeo
+class BmnBCGeoPar
+class BmnBCHit
+class BmnBCHitProducer
+class BmnBCPoint
+header BmnBC.h
+header BmnBCContFact.h
+header BmnBCGeo.h
+header BmnBCGeoPar.h
+header BmnBCHit.h
+header BmnBCHitProducer.h
+header BmnBCPoint.h

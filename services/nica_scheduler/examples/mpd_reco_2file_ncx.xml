@@ -1,0 +1,7 @@
+<job batch="sge" name="mpd_reco">
+ <macro path="$VMCWORKDIR/macro/mpd/reco.C" start_event="0" event_count="4">
+  <file input="$VMCWORKDIR/macro/mpd/evetest1.root" output="$VMCWORKDIR/macro/mpd/mpddst1.root"/>
+  <file input="$VMCWORKDIR/macro/mpd/evetest2.root" output="$VMCWORKDIR/macro/mpd/mpddst2.root"/>
+ </macro>
+ <run mode="global" count="5" config="~/mpdroot/build/config.sh"/>
+</job>

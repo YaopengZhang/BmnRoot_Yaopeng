@@ -1,0 +1,19 @@
+[ BmnRecoTools.so ]
+# List of selected classes
+class BmnCheckMCTask
+class BmnEmbedding
+class BmnFairRunSim
+class BmnPVGetter
+class BmnRecoTools
+class BmnRescale
+class BmnTrackConv
+class BmnZDCEventDataExt
+class MpdLAQGSMGeneratorExt
+header BmnCheckMCTask.h
+header BmnEmbedding.h
+header BmnFairRunSim.h
+header BmnPVGetter.h
+header BmnRecoTools.h
+header BmnRescale.h
+header BmnTrackConv.h
+header MpdLAQGSMGeneratorExt.h

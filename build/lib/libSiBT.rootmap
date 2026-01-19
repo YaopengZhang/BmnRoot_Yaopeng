@@ -1,0 +1,31 @@
+{ decls }
+namespace BmnSiBTConfiguration {  }
+
+[ SiBT.so ]
+# List of selected classes
+class BmnSiBT
+class BmnSiBTDigit
+class BmnSiBTDigitizer
+class BmnSiBTHit
+class BmnSiBTHitMaker
+class BmnSiBTLayer
+class BmnSiBTModule
+class BmnSiBTPoint
+class BmnSiBTStation
+class BmnSiBTStationSet
+class BmnSiBTTransform
+header BmnSiBT.h
+header BmnSiBTDigit.h
+header BmnSiBTDigitizer.h
+header BmnSiBTHit.h
+header BmnSiBTHitMaker.h
+header BmnSiBTLayer.h
+header BmnSiBTModule.h
+header BmnSiBTPoint.h
+header BmnSiBTStation.h
+header BmnSiBTStationSet.h
+header BmnSiBTTransform.h
+# List of selected namespaces
+namespace BmnSiBTConfiguration
+# List of selected enums and outer classes
+enum BmnSiBTConfiguration::SiBT_CONFIG

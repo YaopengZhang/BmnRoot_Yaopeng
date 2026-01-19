@@ -1,0 +1,12 @@
+[ Cat.so ]
+# List of selected classes
+class CbmL1
+class CbmL1PartEfficiencies
+class CbmL1StsTrackFinder
+class CbmStsFindTracks
+class CbmStsFindTracksQa
+header CbmL1.h
+header CbmL1PartEfficiencies.h
+header CbmL1StsTrackFinder.h
+header CbmStsFindTracks.h
+header CbmStsFindTracksQa.h

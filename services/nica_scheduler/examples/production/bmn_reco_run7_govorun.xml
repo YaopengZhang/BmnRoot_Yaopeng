@@ -1,0 +1,32 @@
+<jobs batch="slurm">
+ <job name="bmn_reco">
+  <macro path="$VMCWORKDIR/macro/run/run_reco_bmn.C" start_event="0" event_count="0">
+   <file input="/eos/eos.jinr.ru/nica/bmn/exp/digi/run7/20.02.0/2001-2212_Test/*" output="/zfs/store7.hydra.local/gertsen/bmn/exp/dst/run7/2001-2212_Test/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/bmn_run${last_number}_dst.root"/>
+    <clean path="/lustre/stor1/kgertsen/bmn_run${last_number}_digi.root"/>
+   </file>
+   <file input="/eos/eos.jinr.ru/nica/bmn/exp/digi/run7/20.02.0/3590-4707_BMN_Argon/*" output="/zfs/store7.hydra.local/gertsen/bmn/exp/dst/run7/3590-4707_BMN_Argon/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/bmn_run${last_number}_dst.root"/>
+    <clean path="/lustre/stor1/kgertsen/bmn_run${last_number}_digi.root"/>
+   </file>
+   <file input="/eos/eos.jinr.ru/nica/bmn/exp/digi/run7/20.02.0/4720-5186_BMN_Krypton/*" output="/zfs/store7.hydra.local/gertsen/bmn/exp/dst/run7/4720-5186_BMN_Krypton/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/bmn_run${last_number}_dst.root"/>
+    <clean path="/lustre/stor1/kgertsen/bmn_run${last_number}_digi.root"/>
+   </file>
+  </macro>
+  <run mode="global" count="200" config="~/bmnroot/build/config.sh" queue="bmn"/>
+ </job>
+ <job name="src_reco">
+  <macro path="$VMCWORKDIR/macro/run/run_reco_src.C" start_event="0" event_count="0">
+   <file input="/eos/eos.jinr.ru/nica/bmn/exp/digi/run7/20.02.0/2213-3588_SRC_Carbon/*" output="/zfs/store7.hydra.local/gertsen/bmn/exp/dst/run7/2213-3588_SRC_Carbon/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/bmn_run${last_number}_dst.root"/>
+    <clean path="/lustre/stor1/kgertsen/bmn_run${last_number}_digi.root"/>
+   </file>
+  </macro>
+  <run mode="global" count="100" config="~/bmnroot/build/config.sh" queue="bmn"/>
+ </job>
+</jobs>

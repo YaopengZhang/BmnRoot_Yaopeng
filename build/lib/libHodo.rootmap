@@ -1,0 +1,20 @@
+[ Hodo.so ]
+# List of selected classes
+class BmnHodo
+class BmnHodoAddress
+class BmnHodoContFact
+class BmnHodoDigi
+class BmnHodoDigit
+class BmnHodoDigitizer
+class BmnHodoGeo
+class BmnHodoGeoPar
+class BmnHodoPoint
+header BmnHodo.h
+header BmnHodoAddress.h
+header BmnHodoContFact.h
+header BmnHodoDigi.h
+header BmnHodoDigit.h
+header BmnHodoDigitizer.h
+header BmnHodoGeo.h
+header BmnHodoGeoPar.h
+header BmnHodoPoint.h

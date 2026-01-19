@@ -1,0 +1,8 @@
+[ BmnMisc.so ]
+# List of selected classes
+class BmnCounter
+class BmnDigiContainer
+class BmnDigiMergeTask
+header BmnCounterTask.h
+header BmnDigiContainer.h
+header BmnDigiMergeTask.h

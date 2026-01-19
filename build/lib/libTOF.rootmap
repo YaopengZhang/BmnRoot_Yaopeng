@@ -1,0 +1,18 @@
+[ TOF.so ]
+# List of selected classes
+class BmnTOF
+class BmnTOFContFact
+class BmnTOFGeo
+class BmnTOFGeoPar
+class BmnTOFPoint
+class BmnTof2Digit
+class BmnTofHit
+class BmnTofHitProducerIdeal
+header BmnTOF.h
+header BmnTOFContFact.h
+header BmnTOFGeo.h
+header BmnTOFGeoPar.h
+header BmnTOFPoint.h
+header BmnTof2Digit.h
+header BmnTofHit.h
+header BmnTofHitProducerIdeal.h

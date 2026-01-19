@@ -1,0 +1,28 @@
+<jobs batch="sge">
+ <job name="bmn_reco">
+  <macro path="$VMCWORKDIR/macro/run/run_reco_bmn.C" start_event="0" event_count="0">
+   <file input="/scratch1/gertsen/digi/20.02.0/2001-2212_Test/*" output="/scratch1/${user}/bmn/exp/dst/run7/2001-2212_Test/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="${batch_temp_dir}/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="${batch_temp_dir}/bmn_run${last_number}_dst.root"/>
+   </file>
+   <file input="/scratch1/gertsen/digi/20.02.0/3590-4707_BMN_Argon/*" output="/scratch1/${user}/bmn/exp/dst/run7/3590-4707_BMN_Argon/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="${batch_temp_dir}/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="${batch_temp_dir}/bmn_run${last_number}_dst.root"/>
+   </file>
+   <file input="/scratch1/gertsen/digi/20.02.0/4720-5186_BMN_Krypton/*" output="/scratch1/${user}/bmn/exp/dst/run7/4720-5186_BMN_Krypton/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="${batch_temp_dir}/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="${batch_temp_dir}/bmn_run${last_number}_dst.root"/>
+   </file>
+  </macro>
+  <run mode="global" count="80" config="/scratch1/gertsen/bmnroot/build/config.sh"/>
+ </job>
+ <job name="src_reco">
+  <macro path="$VMCWORKDIR/macro/run/run_reco_src.C" start_event="0" event_count="0">
+   <file input="/scratch1/gertsen/digi/20.02.0/2213-3588_SRC_Carbon/*" output="/scratch1/${user}/bmn/exp/dst/run7/2213-3588_SRC_Carbon/bmn_run${last_number}_dst.root">
+    <put command="xrdcp -f -p -N" path="${batch_temp_dir}/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="${batch_temp_dir}/bmn_run${last_number}_dst.root"/>
+   </file>
+  </macro>
+  <run mode="global" count="40" config="/scratch1/gertsen/bmnroot/build/config.sh"/>
+ </job>
+</jobs>

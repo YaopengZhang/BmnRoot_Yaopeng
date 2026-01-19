@@ -1,0 +1,14 @@
+[ SiMD.so ]
+# List of selected classes
+class BmnSiMD
+class BmnSiMDContFact
+class BmnSiMDDigitizer
+class BmnSiMDGeo
+class BmnSiMDGeoPar
+class BmnSiMDPoint
+header BmnSiMD.h
+header BmnSiMDContFact.h
+header BmnSiMDDigitizer.h
+header BmnSiMDGeo.h
+header BmnSiMDGeoPar.h
+header BmnSiMDPoint.h

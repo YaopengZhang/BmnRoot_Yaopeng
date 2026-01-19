@@ -1,0 +1,6 @@
+[ BmnRecoScWall.so ]
+# List of selected classes
+class BmnScWallAnalyzer
+class BmnScWallReconstructor
+header BmnScWallAnalyzer.h
+header BmnScWallReconstructor.h

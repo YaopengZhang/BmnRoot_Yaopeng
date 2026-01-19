@@ -1,0 +1,8 @@
+[ TofCal.so ]
+# List of selected classes
+class BmnTofCalDigit
+class BmnTofCalHit
+class BmnTofCalHitProducer
+header BmnTofCalDigit.h
+header BmnTofCalHit.h
+header BmnTofCalHitProducer.h

@@ -1,0 +1,18 @@
+[ Bd.so ]
+# List of selected classes
+class BmnBd
+class BmnBdContFact
+class BmnBdDigitizer
+class BmnBdGeo
+class BmnBdGeoPar
+class BmnBdHit
+class BmnBdHitProducer
+class BmnBdPoint
+header BmnBd.h
+header BmnBdContFact.h
+header BmnBdDigitizer.h
+header BmnBdGeo.h
+header BmnBdGeoPar.h
+header BmnBdHit.h
+header BmnBdHitProducer.h
+header BmnBdPoint.h

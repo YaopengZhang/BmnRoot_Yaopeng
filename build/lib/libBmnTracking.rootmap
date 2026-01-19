@@ -1,0 +1,14 @@
+[ BmnTracking.so ]
+# List of selected classes
+class BmnBeamTracking
+class BmnCellAutoTracking
+class BmnCellDuet
+class BmnInnerTrackingRun7
+class BmnStsVectorFinder
+class SrcInnerTrackingRun7
+header BmnBeamTracking.h
+header BmnCellAutoTracking.h
+header BmnCellDuet.h
+header BmnInnerTrackingRun7.h
+header BmnStsVectorFinder.h
+header SrcInnerTrackingRun7.h

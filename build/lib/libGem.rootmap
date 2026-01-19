@@ -1,0 +1,55 @@
+{ decls }
+namespace BmnGemStripConfiguration {  }
+
+[ Gem.so ]
+# List of selected classes
+class BmnGemDigit
+class BmnGemDigitizerQAHistograms
+class BmnGemGas
+class BmnGemGeo
+class BmnGemHitProducer
+class BmnGemStripDigit
+class BmnGemStripDigitizer
+class BmnGemStripHit
+class BmnGemStripHitMaker
+class BmnGemStripLayer
+class BmnGemStripMedium
+class BmnGemStripModule
+class BmnGemStripStation
+class BmnGemStripStationSet
+class BmnGemStripStationSet_RunSpring2017
+class BmnGemStripStationSet_RunSummer2016
+class BmnGemStripStationSet_RunWinter2016
+class BmnGemStripStation_RunSpring2017
+class BmnGemStripStation_RunSummer2016
+class BmnGemStripStation_RunWinter2016
+class BmnGemStripTransform
+class BmnGemTrack
+header BmnGemDigit.h
+header BmnGemDigitizerQAHistograms.h
+header BmnGemGas.h
+header BmnGemGeo.h
+header BmnGemHitProducer.h
+header BmnGemStripDigit.h
+header BmnGemStripDigitizer.h
+header BmnGemStripHit.h
+header BmnGemStripHitMaker.h
+header BmnGemStripLayer.h
+header BmnGemStripMedium.h
+header BmnGemStripModule.h
+header BmnGemStripStation.h
+header BmnGemStripStationSet.h
+header BmnGemStripStationSet_RunSpring2017.h
+header BmnGemStripStationSet_RunSummer2016.h
+header BmnGemStripStationSet_RunWinter2016.h
+header BmnGemStripStation_RunSpring2017.h
+header BmnGemStripStation_RunSummer2016.h
+header BmnGemStripStation_RunWinter2016.h
+header BmnGemStripTransform.h
+header BmnGemTrack.h
+# List of selected namespaces
+namespace BmnGemStripMediumConfiguration
+namespace BmnGemStripConfiguration
+# List of selected enums and outer classes
+enum ElectronDriftDirectionInModule
+enum BmnGemStripConfiguration::GEM_CONFIG

@@ -1,0 +1,20 @@
+[ ScWall.so ]
+# List of selected classes
+class BmnScWall
+class BmnScWallAddress
+class BmnScWallContFact
+class BmnScWallDigi
+class BmnScWallDigit
+class BmnScWallDigitizer
+class BmnScWallGeo
+class BmnScWallGeoPar
+class BmnScWallPoint
+header BmnScWall.h
+header BmnScWallAddress.h
+header BmnScWallContFact.h
+header BmnScWallDigi.h
+header BmnScWallDigit.h
+header BmnScWallDigitizer.h
+header BmnScWallGeo.h
+header BmnScWallGeoPar.h
+header BmnScWallPoint.h

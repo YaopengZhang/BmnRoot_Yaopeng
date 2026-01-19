@@ -1,0 +1,73 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemDigit.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemDigit.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemDigitizerQAHistograms.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemDigitizerQAHistograms.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemGas.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemGas.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemGeo.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemGeo.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemHitProducer.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemHitProducer.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripDigit.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripDigit.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripDigitizer.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripDigitizer.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripHit.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripHit.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripHitMaker.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripHitMaker.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripLayer.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripLayer.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripMedium.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripMedium.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripModule.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripModule.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStation.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStation.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStationSet.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStationSet.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStationSet_RunSpring2017.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStationSet_RunSpring2017.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStationSet_RunSummer2016.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStationSet_RunSummer2016.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStationSet_RunWinter2016.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStationSet_RunWinter2016.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStation_RunSpring2017.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStation_RunSpring2017.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStation_RunSummer2016.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStation_RunSummer2016.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripStation_RunWinter2016.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripStation_RunWinter2016.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemStripTransform.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemStripTransform.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnGemTrack.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnGemTrack.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/detectors/gem/BmnManageQA.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/BmnManageQA.cxx.o"
+  "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/G__GemDict.cxx" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/CMakeFiles/Gem.dir/G__GemDict.cxx.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BMNROOT"
+  "BOOST_BIND_GLOBAL_PLACEHOLDERS"
+  "Gem_EXPORTS"
+  "HAVE_SSE"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/tools/FairSoft/fairroot/install/include"
+  "../base"
+  "../base/data"
+  "../base/raw"
+  "../base/cbm"
+  "../base/header"
+  "../database/uni_db"
+  "../detectors/gem"
+  "/home/tools/FairSoft/fairsoft/install/include/root"
+  "/home/tools/FairSoft/fairsoft/install/include"
+  "/home/tools/FairSoft/fairsoft/install/include/vmc"
+  )
+
+# Pairs of files generated by the same build rule.
+set(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/G__GemDict_rdict.pcm" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/G__GemDict.cxx"
+  "/data/yaopeng/bmnroot_Yaopeng/build/lib/libGem.rootmap" "/data/yaopeng/bmnroot_Yaopeng/build/detectors/gem/G__GemDict.cxx"
+  "/data/yaopeng/bmnroot_Yaopeng/build/lib/libGem.so" "/data/yaopeng/bmnroot_Yaopeng/build/lib/libGem.so.0.0.0"
+  "/data/yaopeng/bmnroot_Yaopeng/build/lib/libGem.so.0" "/data/yaopeng/bmnroot_Yaopeng/build/lib/libGem.so.0.0.0"
+  )
+
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/data/yaopeng/bmnroot_Yaopeng/build/base/CMakeFiles/BmnBase.dir/DependInfo.cmake"
+  "/data/yaopeng/bmnroot_Yaopeng/build/database/uni_db/CMakeFiles/UniDb.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

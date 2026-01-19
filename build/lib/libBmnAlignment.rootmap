@@ -1,0 +1,18 @@
+[ BmnAlignment.so ]
+# List of selected classes
+class BmnAlignCorrections
+class BmnGemAlignCorrections
+class BmnGlobalAlignment
+class BmnInnTrackerAlign
+class BmnMille
+class BmnMilleContainer
+class BmnResiduals
+class BmnSiliconAlignCorrections
+header BmnAlignCorrections.h
+header BmnGemAlignCorrections.h
+header BmnGlobalAlignment.h
+header BmnInnTrackerAlign.h
+header BmnMille.h
+header BmnMilleContainer.h
+header BmnResiduals.h
+header BmnSiliconAlignCorrections.h

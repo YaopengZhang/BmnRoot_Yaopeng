@@ -1,0 +1,6 @@
+<job name="mpd_sim" batch="sge">
+ <macro path="$VMCWORKDIR/macro/mpd/runMC.C">
+  <file input="/nica/mpd1/data4mpd/UrQMD/1.3/auau.09gev.mbias.98k.ftn14" output="$VMCWORKDIR/macro/mpd/evetest.root" parallel_mode="3" start_event="0" event_count="10" merge="false"/>
+ </macro>
+ <run mode="global" count="0" config="~/mpdroot/build/config.sh"/>
+</job>

@@ -1,0 +1,4 @@
+<job batch="sge" name="show_sim">
+ <command line="$VMCWORKDIR/build/bin/show_simulation_files energy=5-9"/>
+ <run mode="global" config="~/bmnroot/build/config.sh" logs="sim_files_energy_5-9.log"/>
+</job>

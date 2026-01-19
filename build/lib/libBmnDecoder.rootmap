@@ -1,0 +1,53 @@
+{ decls }
+namespace PsdSignalFitting {  }
+
+[ BmnDecoder.so ]
+# List of selected classes
+class BmnAdcProcessor
+class BmnCscRaw2Digit
+class BmnDchRaw2Digit
+class BmnECALRaw2Digit
+class BmnFHCalRaw2Digit
+class BmnGemRaw2Digit
+class BmnHodoRaw2Digit
+class BmnLANDRaw2Digit
+class BmnMscRaw2Digit
+class BmnMwpcRaw2Digit
+class BmnNdetRaw2Digit
+class BmnProfAsic2Raw
+class BmnProfRaw2Digit
+class BmnRawDataDecoder
+class BmnScWallRaw2Digit
+class BmnSiliconRaw2Digit
+class BmnSlewingTOF700
+class BmnTof1Raw2Digit
+class BmnTof2Raw2DigitNew
+class BmnTofCalRaw2Digit
+class BmnTrigRaw2Digit
+class BmnZDCRaw2Digit
+class PsdSignalFitting::PronyFitter
+class WfmProcessor
+header BmnAdcProcessor.h
+header BmnCscRaw2Digit.h
+header BmnDchRaw2Digit.h
+header BmnECALRaw2Digit.h
+header BmnFHCalRaw2Digit.h
+header BmnGemRaw2Digit.h
+header BmnHodoRaw2Digit.h
+header BmnLANDRaw2Digit.h
+header BmnMscRaw2Digit.h
+header BmnMwpcRaw2Digit.h
+header BmnNdetRaw2Digit.h
+header BmnProfAsic2Raw.h
+header BmnProfRaw2Digit.h
+header BmnRawDataDecoder.h
+header BmnScWallRaw2Digit.h
+header BmnSiliconRaw2Digit.h
+header BmnSlewingTOF700.h
+header BmnTof1Raw2Digit.h
+header BmnTof2Raw2DigitNew.h
+header BmnTofCalRaw2Digit.h
+header BmnTrigRaw2Digit.h
+header BmnZDCRaw2Digit.h
+header PronyFitter.h
+header WfmProcessor.h

@@ -1,0 +1,20 @@
+[ ElogDb.so ]
+# List of selected classes
+class ElogAttachment
+class ElogBeam
+class ElogConnection
+class ElogPerson
+class ElogRecord
+class ElogSearchCondition
+class ElogTarget
+class ElogTrigger
+class ElogType
+header ElogAttachment.h
+header ElogBeam.h
+header ElogConnection.h
+header ElogPerson.h
+header ElogRecord.h
+header ElogSearchCondition.h
+header ElogTarget.h
+header ElogTrigger.h
+header ElogType.h

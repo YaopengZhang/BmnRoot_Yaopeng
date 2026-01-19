@@ -1,0 +1,20 @@
+<jobs batch="slurm">
+ <job name="mpd_sim">
+  <macro path="$VMCWORKDIR/macro/mpd/runMC.C">
+   <file input="/nfs/main2.jinr.ru/projects/nica/LAQGSM/temp_*" output="/nfs/main2.jinr.ru/projects/nica/temp/evetest_${file_name}.root" start_event="0" event_count="10"/>
+  </macro>
+  <run mode="global" count="0" config="~/mpdroot/build/config.sh" queue="cpu"/>
+ </job>
+ <job name="mpd_reco" dependency="mpd_sim">
+  <macro path="$VMCWORKDIR/macro/mpd/reco.C">
+   <file job_input="mpd_sim" output="/nfs/main2.jinr.ru/projects/nica/temp/bmndst_${file_name:~8}.root" start_event="0" event_count="10"/>
+  </macro>
+  <run mode="global" count="0" config="~/mpdroot/build/config.sh" queue="cpu"/>
+ </job>
+ <job name="mpd_ana" dependency="mpd_reco">
+  <macro path="$VMCWORKDIR/macro/physical_analysis/femto/femtoAna.C">
+   <file job_input="mpd_reco" output="/nfs/main2.jinr.ru/projects/nica/temp/femtoana_${file_name:~7}.root" start_event="0" event_count="10"/>
+  </macro>
+  <run mode="global" count="0" config="~/mpdroot/build/config.sh" queue="cpu" priority="1"/>
+ </job>
+</jobs>

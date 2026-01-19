@@ -1,0 +1,16 @@
+[ Ecal.so ]
+# List of selected classes
+class BmnECALDigit
+class BmnEcal
+class BmnEcalContFact
+class BmnEcalDigitizer
+class BmnEcalGeo
+class BmnEcalGeoPar
+class BmnEcalPoint
+header BmnECALDigit.h
+header BmnEcal.h
+header BmnEcalContFact.h
+header BmnEcalDigitizer.h
+header BmnEcalGeo.h
+header BmnEcalGeoPar.h
+header BmnEcalPoint.h

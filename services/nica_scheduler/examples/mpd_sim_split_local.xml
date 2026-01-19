@@ -1,0 +1,6 @@
+<job>
+ <macro path="$VMCWORKDIR/macro/mpd/runMC.C" start_event="0" event_count="10">
+  <file input="auau.09gev.mbias.98k.ftn14" output="$VMCWORKDIR/macro/mpd/evetest.root" parallel_mode="4" isMerge="true"/>
+ </macro>
+ <run mode="local" count="0" logs="simulation.log"/>
+</job>

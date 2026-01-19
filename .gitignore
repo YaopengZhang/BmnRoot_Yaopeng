@@ -1,0 +1,16 @@
+.vscode/
+macro/
+macro/run/core_dump*
+macro/run/Generator_input*
+macro/run/*.root
+macro/run/Sim1/
+macro/run/Sim2/
+macro/run/Sim3/
+macro/run/Sim0/*.root
+!macro/run/Sim0/PhysicsHist*.root
+macro/run/Sim0/*.dat
+macro/run/Sim0/DCMQGSM_Cp_3.7_AGeV_qgsm_1k/
+macro/run/Sim0/DCMQGSM_SRC/
+macro/run/Sim0/DropMeFiles_5sCTR/
+macro/run/Sim0/*.r12
+macro/run/Sim0/*.txt

@@ -1,0 +1,9 @@
+<job name="bmn_raw" batch="torque">
+ <macro path="$VMCWORKDIR/macro/raw/BmnDataToRoot.C">
+  <file input="/eos/nica/bmn/exp/raw/run7/2001-2212_Test/*" output="root://eos.jinr.ru//eos/nica/bmn/exp/digi/tmp/2001-2212_Test/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/3590-4707_BMN_Argon/*" output="root://eos.jinr.ru//eos/nica/bmn/exp/digi/tmp/3590-4707_BMN_Argon/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/4720-5186_BMN_Krypton/*" output="root://eos.jinr.ru//eos/nica/bmn/exp/digi/tmp/4720-5186_BMN_Krypton/bmn_run${last_number}_digi.root"/>
+  <file input="/eos/nica/bmn/exp/raw/run7/2213-3588_SRC_Carbon/*" output="root://eos.jinr.ru//eos/nica/bmn/exp/digi/tmp/2213-3588_SRC_Carbon/bmn_run${last_number}_digi.root"/>
+ </macro>
+ <run mode="global" count="200" config="/dev/null;scl enable devtoolset-9 rh-python35 bash;source /opt/exp_soft/mpd/gertsen/bmnroot/build/config.sh" queue="mpd@bfsrv"/>
+</job>

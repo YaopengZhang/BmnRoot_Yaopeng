@@ -1,0 +1,12 @@
+[ FD.so ]
+# List of selected classes
+class BmnFD
+class BmnFDContFact
+class BmnFDGeo
+class BmnFDGeoPar
+class BmnFDPoint
+header BmnFD.h
+header BmnFDContFact.h
+header BmnFDGeo.h
+header BmnFDGeoPar.h
+header BmnFDPoint.h

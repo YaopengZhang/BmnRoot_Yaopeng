@@ -1,0 +1,6 @@
+<job batch="sge" name="mpd_simdb">
+ <macro path="$VMCWORKDIR/macro/mpd/runMC.C" start_event="0" event_count="10">
+  <file sim_input="energy=4-,gen=urqmd" output="$VMCWORKDIR/macro/mpd/evetest_${counter}.root"/>
+ </macro>
+ <run mode="global" count="0" config="~/mpdroot/build/config.sh"/>
+</job>

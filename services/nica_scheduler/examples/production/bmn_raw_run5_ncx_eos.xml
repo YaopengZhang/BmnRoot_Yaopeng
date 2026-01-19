@@ -1,0 +1,6 @@
+<job name="bmn_raw" batch="sge">
+ <macro path="$VMCWORKDIR/macro/raw/BmnDataToRoot.C">
+  <file input="/eos/nica/bmn/exp/raw/run5/*" output="/eos/nica/bmn/exp/digi/run5/20.02.0/bmn_run${last_number}_digi.root"/>
+ </macro>
+ <run mode="global" count="30" config="/weekly/gertsen/bmnroot/build/config.sh" hosts="(ncx20[5-8]|ncx21[1-8]|ncx22[5-8]|ncx23[1-8]|ncx11[1-7]|ncx12[1-7]|ncx13[1-9]|ncx14[1-9]|ncx15[19]|ncx16[1-9])"/>
+</job>

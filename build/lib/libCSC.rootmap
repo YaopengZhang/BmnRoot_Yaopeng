@@ -1,0 +1,31 @@
+{ decls }
+namespace BmnCSCConfiguration {  }
+
+[ CSC.so ]
+# List of selected classes
+class BmnCSC
+class BmnCSCDigit
+class BmnCSCDigitizer
+class BmnCSCHit
+class BmnCSCHitMaker
+class BmnCSCLayer
+class BmnCSCModule
+class BmnCSCPoint
+class BmnCSCStation
+class BmnCSCStationSet
+class BmnCSCTransform
+header BmnCSC.h
+header BmnCSCDigit.h
+header BmnCSCDigitizer.h
+header BmnCSCHit.h
+header BmnCSCHitMaker.h
+header BmnCSCLayer.h
+header BmnCSCModule.h
+header BmnCSCPoint.h
+header BmnCSCStation.h
+header BmnCSCStationSet.h
+header BmnCSCTransform.h
+# List of selected namespaces
+namespace BmnCSCConfiguration
+# List of selected enums and outer classes
+enum BmnCSCConfiguration::CSC_CONFIG

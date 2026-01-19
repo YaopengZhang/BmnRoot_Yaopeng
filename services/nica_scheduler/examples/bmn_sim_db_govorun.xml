@@ -1,0 +1,9 @@
+<job batch="slurm" name="bmn_simdb">
+ <macro path="$VMCWORKDIR/macro/run/run_sim_bmn.C" start_event="0" event_count="1" add_args="DCMQGSM">
+  <file sim_input="gen=dcmqgsm" output="/zfs/store7.hydra.local/gertsen/bmn/sim/digi/DCMQGSM/${file_dir_name}/${file_name}.root"/>
+    <put command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name_with_ext}"/>
+    <get command="xrdcp -f -p -N" path="/lustre/stor1/kgertsen/${file_name}_digi.root"/>
+    <clean path="/lustre/stor1/kgertsen/${file_name}_digi.root"/>
+ </macro>
+ <run mode="global" count="80" config="~/bmnroot/build/config.sh" queue="bmn"/>
+</job>

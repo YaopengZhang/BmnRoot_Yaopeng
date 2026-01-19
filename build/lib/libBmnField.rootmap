@@ -1,0 +1,37 @@
+[ BmnField.so ]
+# List of selected classes
+class BmnConstPar
+class BmnFieldConst
+class BmnFieldContFact
+class BmnFieldCreator
+class BmnFieldMap
+class BmnFieldMapData
+class BmnFieldMapSym3
+class BmnFieldPar
+class BmnFieldParser
+class BmnFieldPoint
+class BmnMapPar
+class BmnMultiField
+class BmnMultiFieldPar
+class BmnNewFieldMap
+class BmnRegion
+class BmnSP41FieldMapCreator
+class extrapolationConditions
+class fitParMonitor
+class smoothedValues
+header BmnConstPar.h
+header BmnFieldConst.h
+header BmnFieldContFact.h
+header BmnFieldCreator.h
+header BmnFieldMap.h
+header BmnFieldMapData.h
+header BmnFieldMapSym3.h
+header BmnFieldPar.h
+header BmnFieldParser.h
+header BmnFieldPoint.h
+header BmnMapPar.h
+header BmnMultiField.h
+header BmnMultiFieldPar.h
+header BmnNewFieldMap.h
+header BmnRegion.h
+header BmnSP41FieldMapCreator.h

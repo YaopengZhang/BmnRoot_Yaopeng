@@ -1,0 +1,30 @@
+[ Mwpc.so ]
+# List of selected classes
+class BmnMwpc
+class BmnMwpcContFact
+class BmnMwpcDigit
+class BmnMwpcGeo
+class BmnMwpcGeoPar
+class BmnMwpcGeometry
+class BmnMwpcGeometrySRC
+class BmnMwpcHit
+class BmnMwpcHitFinder
+class BmnMwpcHitProducer
+class BmnMwpcPoint
+class BmnMwpcSegment
+class BmnMwpcTrack
+class BmnMwpcTrackFinder
+header BmnMwpc.h
+header BmnMwpcContFact.h
+header BmnMwpcDigit.h
+header BmnMwpcGeo.h
+header BmnMwpcGeoPar.h
+header BmnMwpcGeometry.h
+header BmnMwpcGeometrySRC.h
+header BmnMwpcHit.h
+header BmnMwpcHitFinder.h
+header BmnMwpcHitProducer.h
+header BmnMwpcPoint.h
+header BmnMwpcSegment.h
+header BmnMwpcTrack.h
+header BmnMwpcTrackFinder.h

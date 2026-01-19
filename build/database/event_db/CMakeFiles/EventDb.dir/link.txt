@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++17 -g -Wshadow -Wl,--enable-new-dtags -shared -Wl,-soname,libEventDb.so.0 -o ../../lib/libEventDb.so.0.0.0 CMakeFiles/EventDb.dir/EventCatalogue.cxx.o CMakeFiles/EventDb.dir/G__EventDbDict.cxx.o   -L/home/tools/FairSoft/fairsoft/install/lib  -Wl,-rpath,/home/tools/FairSoft/fairsoft/install/lib::::::::::::::: -lCore -lGeom -lGpad -lNet 

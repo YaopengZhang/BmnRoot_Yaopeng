@@ -1,0 +1,22 @@
+[ Passive.so ]
+# List of selected classes
+class FairCave
+class FairGeoCave
+class FairGeoMagnet
+class FairGeoPassivePar
+class FairGeoPipe
+class FairGeoTarget
+class FairMagnet
+class FairPassiveContFact
+class FairPipe
+class FairTarget
+header FairCave.h
+header FairGeoCave.h
+header FairGeoMagnet.h
+header FairGeoPassivePar.h
+header FairGeoPipe.h
+header FairGeoTarget.h
+header FairMagnet.h
+header FairPassiveContFact.h
+header FairPipe.h
+header FairTarget.h

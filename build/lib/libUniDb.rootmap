@@ -1,0 +1,41 @@
+[ UniDb.so ]
+# List of selected classes
+class BinaryValue
+class BoolValue
+class DchMapValue
+class DoubleValue
+class GemMapValue
+class GemPedestalValue
+class IIValue
+class IntValue
+class LorentzShiftValue
+class MapBoolValue
+class MapDVectorValue
+class MapIntValue
+class StringValue
+class TriggerMapValue
+class UIntValue
+class UniConnection
+class UniDetector
+class UniDetectorParameter
+class UniParameter
+class UniRun
+class UniRunGeometry
+class UniRunPeriod
+class UniSearchCondition
+class UniSimulationFile
+class UniValue
+class UniqueRunNumber
+header uni_db_structures.h
+header UniConnection.h
+header UniDetector.h
+header UniDetectorParameter.h
+header UniParameter.h
+header UniRun.h
+header UniRunGeometry.h
+header UniRunPeriod.h
+header UniSearchCondition.h
+header UniSimulationFile.h
+header UniValue.h
+# List of selected enums and outer classes
+enum enumValueType

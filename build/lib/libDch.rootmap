@@ -1,0 +1,24 @@
+[ Dch.so ]
+# List of selected classes
+class BmnDch
+class BmnDchContFact
+class BmnDchDigit
+class BmnDchGeo
+class BmnDchGeoPar
+class BmnDchHit
+class BmnDchHitOriginal
+class BmnDchHitProducer
+class BmnDchPoint
+class BmnDchTrack
+class BmnDchTrackFinder
+header BmnDch.h
+header BmnDchContFact.h
+header BmnDchDigit.h
+header BmnDchGeo.h
+header BmnDchGeoPar.h
+header BmnDchHit.h
+header BmnDchHitOriginal.h
+header BmnDchHitProducer.h
+header BmnDchPoint.h
+header BmnDchTrack.h
+header BmnDchTrackFinder.h

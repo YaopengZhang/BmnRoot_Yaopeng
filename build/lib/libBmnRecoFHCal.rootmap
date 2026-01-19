@@ -1,0 +1,4 @@
+[ BmnRecoFHCal.so ]
+# List of selected classes
+class BmnFHCalReconstructor
+header BmnFHCalReconstructor.h

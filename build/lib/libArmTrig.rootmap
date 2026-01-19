@@ -1,0 +1,10 @@
+[ ArmTrig.so ]
+# List of selected classes
+class BmnArmTrig
+class BmnArmTrigHit
+class BmnArmTrigHitProducer
+class BmnArmTrigPoint
+header BmnArmTrig.h
+header BmnArmTrigHit.h
+header BmnArmTrigHitProducer.h
+header BmnArmTrigPoint.h

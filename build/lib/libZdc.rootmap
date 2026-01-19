@@ -1,0 +1,26 @@
+[ Zdc.so ]
+# List of selected classes
+class BmnZDCDigit
+class BmnZdc
+class BmnZdcBScanner
+class BmnZdcContFact
+class BmnZdcDigi
+class BmnZdcDigiPar
+class BmnZdcDigiProducer
+class BmnZdcDigiScheme
+class BmnZdcDigitizer
+class BmnZdcGeo
+class BmnZdcGeoPar
+class BmnZdcPoint
+header BmnZDCDigit.h
+header BmnZdc.h
+header BmnZdcBScanner.h
+header BmnZdcContFact.h
+header BmnZdcDigi.h
+header BmnZdcDigiPar.h
+header BmnZdcDigiProducer.h
+header BmnZdcDigiScheme.h
+header BmnZdcDigitizer.h
+header BmnZdcGeo.h
+header BmnZdcGeoPar.h
+header BmnZdcPoint.h

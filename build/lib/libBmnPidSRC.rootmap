@@ -1,0 +1,4 @@
+[ BmnPidSRC.so ]
+# List of selected classes
+class BmnPidSRC
+header BmnPidSRC.h

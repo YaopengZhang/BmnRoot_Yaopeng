@@ -1,0 +1,6 @@
+<job>
+ <macro path="$VMCWORKDIR/macro/mpd/runMC.C" start_event="0" event_count="10">
+  <file sim_input="energy=3,gen=urqmd" output="$VMCWORKDIR/macro/mpd/evetest_db_${counter}.root"/>
+ </macro>
+ <run mode="local" count="4" logs="processing.log"/>
+</job>

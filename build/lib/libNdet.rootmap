@@ -1,0 +1,24 @@
+[ Ndet.so ]
+# List of selected classes
+class BmnNdet
+class BmnNdetAddress
+class BmnNdetContFact
+class BmnNdetDigi
+class BmnNdetDigit
+class BmnNdetDigitPar
+class BmnNdetDigitScheme
+class BmnNdetDigitizer
+class BmnNdetGeo
+class BmnNdetGeoPar
+class BmnNdetPoint
+header BmnNdet.h
+header BmnNdetAddress.h
+header BmnNdetContFact.h
+header BmnNdetDigi.h
+header BmnNdetDigit.h
+header BmnNdetDigitPar.h
+header BmnNdetDigitScheme.h
+header BmnNdetDigitizer.h
+header BmnNdetGeo.h
+header BmnNdetGeoPar.h
+header BmnNdetPoint.h

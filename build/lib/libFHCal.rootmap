@@ -1,0 +1,24 @@
+[ FHCal.so ]
+# List of selected classes
+class BmnFHCal
+class BmnFHCalAddress
+class BmnFHCalContFact
+class BmnFHCalDigi
+class BmnFHCalDigit
+class BmnFHCalDigitizer
+class BmnFHCalEvent
+class BmnFHCalGeo
+class BmnFHCalGeoPar
+class BmnFHCalModule
+class BmnFHCalPoint
+header BmnFHCal.h
+header BmnFHCalAddress.h
+header BmnFHCalContFact.h
+header BmnFHCalDigi.h
+header BmnFHCalDigit.h
+header BmnFHCalDigitizer.h
+header BmnFHCalEvent.h
+header BmnFHCalGeo.h
+header BmnFHCalGeoPar.h
+header BmnFHCalModule.h
+header BmnFHCalPoint.h

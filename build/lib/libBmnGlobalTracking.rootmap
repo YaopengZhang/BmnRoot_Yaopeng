@@ -1,0 +1,16 @@
+[ BmnGlobalTracking.so ]
+# List of selected classes
+class BmnGemDchTrack
+class BmnGlobalTrack
+class BmnGlobalTracking
+class BmnTriggersCheck
+class BmnUpstreamTracking
+class BmnVertexFinder
+class SrcVertexFinder
+header BmnGemDchTrack.h
+header BmnGlobalTrack.h
+header BmnGlobalTracking.h
+header BmnTriggersCheck.h
+header BmnUpstreamTracking.h
+header BmnVertexFinder.h
+header SrcVertexFinder.h

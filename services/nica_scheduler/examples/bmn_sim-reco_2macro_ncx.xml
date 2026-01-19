@@ -1,0 +1,9 @@
+<job batch="sge">
+ <macro name="bmn_sim" path="$VMCWORKDIR/macro/run/run_sim_bmn.C">
+  <file input="/eos/nica/bmn/sim/gen/DCMQGSM/CC_3.5AGeV_mb/*" output="/eos/nica/bmn/sim/dst/DCMQGSM/CC_3.5AGeV_mb/bmnsim_${file_name}.root" start_event="0" event_count="0" add_args=",DCMQGSM"/>
+ </macro>
+ <macro name="bmn_reco" path="$VMCWORKDIR/macro/run/run_reco_bmn.C">
+  <file macro_input="bmn_sim" output="/eos/nica/bmn/sim/dst/DCMQGSM/CC_3.5AGeV_mb/bmndst_${file_name:~4}.root" start_event="0" event_count="0"/>
+ </macro>
+ <run mode="global" count="30" memory1="8GB" config="~/bmnroot/build/config.sh" core_dump="false"/>
+</job>

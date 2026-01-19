@@ -1,0 +1,6 @@
+<job name="raw2db" batch="sge">
+ <macro path="~/bmnroot/macro/raw/BmnWriteRawInfo.C" add_args=",7">
+  <file exp_input="period=7" output="/eos/nica/bmn/exp/tmp/run7a/bmn_${file_name:~4}_digi.root"/>
+ </macro>
+ <run mode="global" count="1" config="~/bmnroot/build/config.sh"/>
+</job>

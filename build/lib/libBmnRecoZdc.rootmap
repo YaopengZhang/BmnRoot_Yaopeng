@@ -1,0 +1,6 @@
+[ BmnRecoZdc.so ]
+# List of selected classes
+class BmnZDCEventData
+class BmnZdcAnalyzer
+header BmnZDCEventData.h
+header BmnZdcAnalyzer.h
